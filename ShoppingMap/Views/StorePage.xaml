@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="ShoppingMap.Views.StorePage"
+             Title="Store Page">
+	<ContentPage.Content>
+        <ScrollView>
+        <StackLayout HorizontalOptions="Fill" 
+        VerticalOptions="Fill"
+                x:Name="mainStack">
+        <Image Source="no_image.png" 
+               Margin="0" 
+                x:Name="storeMap"/>
+
+        <StackLayout x:Name="headers"></StackLayout>
+       
+        <StackLayout BackgroundColor="#4D71A3"
+                HeightRequest="50">
+          <Label Text="Contact Stuff"></Label>
+        </StackLayout>
+        </StackLayout>
+        </ScrollView>
+	</ContentPage.Content>
+</ContentPage>

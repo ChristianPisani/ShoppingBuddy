@@ -1,0 +1,4 @@
+C:\Users\patri\Dropbox\ShoppingMap\ShoppingMap\obj\Debug\ShoppingMap.csprojResolveAssemblyReference.cache
+C:\Users\patri\Dropbox\ShoppingMap\ShoppingMap\obj\Debug\ShoppingMap.csproj.CoreCompileInputs.cache
+C:\Users\patri\Dropbox\ShoppingMap\ShoppingMap\obj\Debug\ShoppingMap.dll
+C:\Users\patri\Dropbox\ShoppingMap\ShoppingMap\obj\Debug\ShoppingMap.pdb

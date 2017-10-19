@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="ShoppingMap.Views.MainPage"
+             Title="Stores">
+	<StackLayout>
+        <SearchBar HeightRequest="50"
+                   Placeholder="Search for item or store"
+                   x:Name="searchBar">  
+
+        </SearchBar>
+    
+        <ListView x:Name="Stores"
+                  ItemTapped="Handle_ItemTapped">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Text="{Binding name}" />
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+        <Button Text="View shoppinglist" Clicked="GoToShoppingList"></Button>
+   </StackLayout>
+</ContentPage>

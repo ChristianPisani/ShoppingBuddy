@@ -1,0 +1,2 @@
+android.app.Application
+qut.gardenspoint.iab330.ShoppingMap

@@ -1,0 +1,26 @@
+Function=xamarin_get_block_descriptor
+	/Users/christianthorvik/Dropbox/Programmering/Xamarin/ShoppingMap/iOS/obj/iPhone/Release/mtouch-cache/Link/Xamarin.iOS.dll
+Function=UIApplicationMain
+	/Users/christianthorvik/Dropbox/Programmering/Xamarin/ShoppingMap/iOS/obj/iPhone/Release/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSend_IntPtr
+	/Users/christianthorvik/Dropbox/Programmering/Xamarin/ShoppingMap/iOS/obj/iPhone/Release/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSendSuper_IntPtr
+	/Users/christianthorvik/Dropbox/Programmering/Xamarin/ShoppingMap/iOS/obj/iPhone/Release/mtouch-cache/Link/Xamarin.iOS.dll
+Function=CreateZStream
+	/Users/christianthorvik/Dropbox/Programmering/Xamarin/ShoppingMap/iOS/obj/iPhone/Release/mtouch-cache/Link/System.dll
+Function=CloseZStream
+	/Users/christianthorvik/Dropbox/Programmering/Xamarin/ShoppingMap/iOS/obj/iPhone/Release/mtouch-cache/Link/System.dll
+Function=Flush
+	/Users/christianthorvik/Dropbox/Programmering/Xamarin/ShoppingMap/iOS/obj/iPhone/Release/mtouch-cache/Link/System.dll
+Function=ReadZStream
+	/Users/christianthorvik/Dropbox/Programmering/Xamarin/ShoppingMap/iOS/obj/iPhone/Release/mtouch-cache/Link/System.dll
+Function=WriteZStream
+	/Users/christianthorvik/Dropbox/Programmering/Xamarin/ShoppingMap/iOS/obj/iPhone/Release/mtouch-cache/Link/System.dll
+Function=xamarin_start_wwan
+	/Users/christianthorvik/Dropbox/Programmering/Xamarin/ShoppingMap/iOS/obj/iPhone/Release/mtouch-cache/Link/System.dll
+Function=xamarin_timezone_get_data
+	/Users/christianthorvik/Dropbox/Programmering/Xamarin/ShoppingMap/iOS/obj/iPhone/Release/mtouch-cache/Link/mscorlib.dll
+Function=xamarin_GetFolderPath
+	/Users/christianthorvik/Dropbox/Programmering/Xamarin/ShoppingMap/iOS/obj/iPhone/Release/mtouch-cache/Link/mscorlib.dll
+Function=xamarin_log
+	/Users/christianthorvik/Dropbox/Programmering/Xamarin/ShoppingMap/iOS/obj/iPhone/Release/mtouch-cache/Link/mscorlib.dll

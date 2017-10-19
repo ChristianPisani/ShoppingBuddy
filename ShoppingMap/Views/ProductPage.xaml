@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="ShoppingMap.Views.ProductPage">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="StartAndExpand">
+            <Image Source="no_image.png"
+                x:Name="productImages"></Image>
+            <Label Text="Product Info"
+                   x:Name="InfoLabel"></Label>
+
+            <Button Text="Add to shopping list" Clicked="AddToShoppingList"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
