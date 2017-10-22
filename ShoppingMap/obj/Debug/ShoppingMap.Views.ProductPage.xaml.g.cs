@@ -11,7 +11,7 @@
 namespace ShoppingMap.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/christianthorvik/Desktop/ShoppingMap/ShoppingMap/Views/ProductPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/a/Documents/GitHub/ShoppingBuddy/ShoppingMap/Views/ProductPage.xaml")]
     public partial class ProductPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

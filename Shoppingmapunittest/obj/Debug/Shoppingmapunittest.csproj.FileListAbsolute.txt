@@ -18,3 +18,13 @@
 /Users/a/Dropbox/ShoppingMap/Shoppingmapunittest/obj/Debug/Shoppingmapunittest.csproj.CoreCompileInputs.cache
 /Users/a/Dropbox/ShoppingMap/Shoppingmapunittest/obj/Debug/Shoppingmapunittest.dll
 /Users/a/Dropbox/ShoppingMap/Shoppingmapunittest/obj/Debug/Shoppingmapunittest.pdb
+/Users/a/Documents/GitHub/ShoppingBuddy/Shoppingmapunittest/bin/Debug/Shoppingmapunittest.dll
+/Users/a/Documents/GitHub/ShoppingBuddy/Shoppingmapunittest/bin/Debug/Shoppingmapunittest.pdb
+/Users/a/Documents/GitHub/ShoppingBuddy/Shoppingmapunittest/bin/Debug/nunit.framework.dll
+/Users/a/Documents/GitHub/ShoppingBuddy/Shoppingmapunittest/bin/Debug/Xamarin.UITest.dll
+/Users/a/Documents/GitHub/ShoppingBuddy/Shoppingmapunittest/bin/Debug/nunit.framework.xml
+/Users/a/Documents/GitHub/ShoppingBuddy/Shoppingmapunittest/bin/Debug/Xamarin.UITest.xml
+/Users/a/Documents/GitHub/ShoppingBuddy/Shoppingmapunittest/obj/Debug/Shoppingmapunittest.csprojResolveAssemblyReference.cache
+/Users/a/Documents/GitHub/ShoppingBuddy/Shoppingmapunittest/obj/Debug/Shoppingmapunittest.csproj.CoreCompileInputs.cache
+/Users/a/Documents/GitHub/ShoppingBuddy/Shoppingmapunittest/obj/Debug/Shoppingmapunittest.dll
+/Users/a/Documents/GitHub/ShoppingBuddy/Shoppingmapunittest/obj/Debug/Shoppingmapunittest.pdb

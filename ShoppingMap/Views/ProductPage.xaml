@@ -6,8 +6,10 @@
                 x:Name="productImages"></Image>
             <Label Text="Product Info"
                    x:Name="InfoLabel"></Label>
+            <Label Text="{Binding InfoLable}"></Label>
 
             <Button Text="Add to shopping list" Clicked="AddToShoppingList"></Button>
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

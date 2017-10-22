@@ -30,6 +30,32 @@ namespace ShoppingMap.Models {
             ItemCategory BabyNkids = new ItemCategory("Baby & Kids");
             ItemCategory Tshits = new ItemCategory("Tshirts");
 
+            // david jones 
+            ItemCategory Accessories = new ItemCategory("Bags and Accessories");
+            ItemCategory Home = new ItemCategory("Home and Food");
+
+
+            //Woolworths
+            ItemCategory Fruits = new ItemCategory("Fruit and Veg");
+            ItemCategory Meat = new ItemCategory("Meat and Seafood");
+            ItemCategory Bakery = new ItemCategory("Bakery");
+            ItemCategory Drinks = new ItemCategory("Drinks");
+            ItemCategory Liquor = new ItemCategory("Liquor");
+
+            //lenspro
+            ItemCategory Glasses = new ItemCategory("Glasses");
+            ItemCategory Lenses = new ItemCategory("Contact Lenses");
+
+            //ToysRUs
+            ItemCategory ActionFigures  = new ItemCategory("Action Figures & Hero Play ");
+            ItemCategory Bikes = new ItemCategory("Bikes & Scooters");
+            ItemCategory Cars = new ItemCategory("Cars, Trucks &Trains ");
+            ItemCategory Games = new ItemCategory("Games & Puzzles ");
+
+
+
+
+
 			shoes.addItem(new Item("Black shoe"));
             shoes.addItem(new Item("White shoe"));
             shoes.addItem(new Item("Gray shoe"));
@@ -120,7 +146,7 @@ namespace ShoppingMap.Models {
 
 
 			//sport equipments
-			Item SoccerBall = new Item("SoccerBall price is 20");
+			Item SoccerBall = new Item("SoccerBall");
             SoccerBall.images[0] = "epl2.png";
             Sports.addItem(SoccerBall);
 
@@ -173,31 +199,36 @@ namespace ShoppingMap.Models {
             BigW.img = "bigw.png";
 
             Store DavidJones = new Store("David Jones");
-            DavidJones.addCategory(shoes);
-            DavidJones.addCategory(sweaters);
-            DavidJones.addCategory(pants);
+            DavidJones.addCategory(menClothing);
+            DavidJones.addCategory(WomenClothing);
+            DavidJones.addCategory(MenShoes);
+            DavidJones.addCategory(WomenShoes);
+            DavidJones.addCategory(Home);
+            DavidJones.addCategory(Accessories);
             DavidJones.img = "davidj.png";
 
+
             Store Woolworths = new Store("Woolworths");
-            Woolworths.addCategory(sweaters);
+            Woolworths.addCategory(Fruits);
+            Woolworths.addCategory(Meat);
+            Woolworths.addCategory(Drinks);
+            Woolworths.addCategory(Bakery);
+            Woolworths.addCategory(Liquor);
             Woolworths.img = "woolies.png";
 
             Store LensPro = new Store("LensPro");
-            LensPro.addCategory(shoes);
-            LensPro.addCategory(shirts);
+            LensPro.addCategory(Glasses);
+            LensPro.addCategory(Lenses);
             LensPro.img = "lenspro.png";
 
             Store ToysRUs = new Store("Toys R Us");
-            ToysRUs.addCategory(shirts);
-            ToysRUs.addCategory(pants);
-            ToysRUs.addCategory(shoes);
-            ToysRUs.addCategory(swimmers);
-            ToysRUs.addCategory(sweaters);
+            ToysRUs.addCategory(ActionFigures);
+            ToysRUs.addCategory(Cars);
+            ToysRUs.addCategory(Bikes);
+            ToysRUs.addCategory(Games);
             ToysRUs.img = "toys.png";
 
-            Store Megaplex = new Store("Megaplex");
-            Megaplex.addCategory(shirts);
-            Megaplex.img = "megaplex.png";
+    
 
             List<Store> returnStores = new List<Store>();
             returnStores.Add(HarveyNorman);
@@ -206,7 +237,6 @@ namespace ShoppingMap.Models {
             returnStores.Add(Woolworths);
             returnStores.Add(LensPro);
             returnStores.Add(ToysRUs);
-            returnStores.Add(Megaplex);
 
             return returnStores;
         }
