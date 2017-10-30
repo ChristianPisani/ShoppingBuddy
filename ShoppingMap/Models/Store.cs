@@ -11,6 +11,7 @@ namespace ShoppingMap.Models {
         [TextBlob("categoriesBlobbed")]
         public List<ItemCategory> categories { get; set; }
         public string categoriesBlobbed { get; set; }
+        public string tradingHours { get; set; } = "Trading hours: 10am - 10pm";
 
         public string img { get; set; } = "no_image.png";
 

@@ -4,6 +4,7 @@ using ShoppingMap.Models;
 
 namespace ShoppingMap.ViewModels {
     public class SearchModel {
+        //Go through stores, cateogories and items and return all that match the search 
         public static List<Store> Search(string searchValue, List<Store> stores) {
             searchValue = searchValue.ToLower();
             if (searchValue == "") {
@@ -12,16 +13,6 @@ namespace ShoppingMap.ViewModels {
 
             List<Store> newStores = new List<Store>();
             foreach (Store store in stores) {
-                /*foreach (ItemCategory cat in store.categories) {
-                    foreach (Item i in cat.items) {
-                        if (i.name.ToLower().Contains(searchValue)) {
-                            if (!newStores.Contains(store)) {
-                                newStores.Add(store);
-                            }
-                        }
-                    }
-                }*/
-
                 if (store.name.ToLower().Contains(searchValue)) {
                     if (!newStores.Contains(store)) {
                         newStores.Add(store);

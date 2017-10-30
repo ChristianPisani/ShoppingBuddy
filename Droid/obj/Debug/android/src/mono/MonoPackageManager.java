@@ -108,6 +108,7 @@ class MonoPackageManager_Resources {
 		/* We need to ensure that "ShoppingMap.Droid.dll" comes first in this list. */
 		"ShoppingMap.Droid.dll",
 		"FormsViewGroup.dll",
+		"nunit.framework.dll",
 		"SQLite-net.dll",
 		"SQLite.Net.Async.dll",
 		"SQLite.Net.dll",

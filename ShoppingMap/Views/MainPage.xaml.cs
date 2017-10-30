@@ -17,6 +17,7 @@ namespace ShoppingMap.Views {
             this.BindingContext = shopsPage;
             Stores.ItemsSource = shopsPage.allStores;
 
+            //Performs a search and updates the items every time the text changes
             searchBar.TextChanged += (sender, e) => {
                 if (searchBar.Text != "") {
                     Stores.ItemsSource = SearchModel.Search(searchBar.Text, DefaultStores.GetStores());
@@ -35,7 +36,7 @@ namespace ShoppingMap.Views {
             DisplayAlert("Item", s.name, "OK");
         }*/
 
-
+        //Create new storepage and push navigation to this
         void Handle_ItemTapped(object sender, Xamarin.Forms.ItemTappedEventArgs e) {
             try {
                 Navigation.PushAsync(shopsPage.CreateStorePage((Store)e.Item, searchBar.Text));

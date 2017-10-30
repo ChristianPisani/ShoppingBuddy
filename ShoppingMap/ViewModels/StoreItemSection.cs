@@ -12,6 +12,9 @@ namespace ShoppingMap {
         bool headerOpen = false;
         public Grid content;
 
+        //Layout a drop down menu with a title and a list of items.
+        //This will add a label that with a tapgesture that detects
+        //when you tap it. 
         public StoreItemSection(string title, List<Item> items) {
             this.title = title;
             this.Text = title;
@@ -70,6 +73,8 @@ namespace ShoppingMap {
             this.GestureRecognizers.Add(tapHandler);
         }
 
+        //Switch the items in the drop-down to be visible and invisible
+        //when the header is tapped
         void Handle_Tapped(object sender, System.EventArgs e) {
             Debug.WriteLine("Tapped");
             if (!headerOpen) {
@@ -80,6 +85,7 @@ namespace ShoppingMap {
             headerOpen = !headerOpen;
         }
 
+        //When an item is tapped, create a productpage that displays that item
         void Handle_Item_Tapped(object sender, Item item) {
             ProductPage productPage = new ProductPage(item);
             productPage.Title = item.name;

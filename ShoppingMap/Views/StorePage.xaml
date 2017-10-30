@@ -16,7 +16,7 @@
        
         <StackLayout BackgroundColor="#4D71A3"
                 HeightRequest="50">
-          <Label Text="Contact Stuff"></Label>
+          <Label x:Name="TradingHours"></Label>
         </StackLayout>
         </StackLayout>
         </ScrollView>

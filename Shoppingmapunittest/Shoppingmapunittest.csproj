@@ -40,5 +40,11 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ShoppingMap\ShoppingMap.csproj">
+      <Project>{CC342011-4F80-4B47-ADCA-40AE21F5B92C}</Project>
+      <Name>ShoppingMap</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

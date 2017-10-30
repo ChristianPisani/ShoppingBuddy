@@ -163,3 +163,5 @@ C:/Users/patri/Dropbox/ShoppingMap/ShoppingMap/obj/Debug/ShoppingMap.pdb
 /Users/a/Documents/GitHub/ShoppingBuddy/ShoppingMap/obj/Debug/ShoppingMap.Views.ShoppingList.xaml.g.cs
 /Users/a/Documents/GitHub/ShoppingBuddy/ShoppingMap/obj/Debug/ShoppingMap.dll
 /Users/a/Documents/GitHub/ShoppingBuddy/ShoppingMap/obj/Debug/ShoppingMap.pdb
+/Users/christianthorvik/Desktop/ShoppingMap/ShoppingMap/bin/Debug/nunit.framework.dll
+/Users/christianthorvik/Desktop/ShoppingMap/ShoppingMap/bin/Debug/nunit.framework.xml

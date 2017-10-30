@@ -40,6 +40,7 @@ namespace ShoppingMap.Views
                 }
             }
             storeMap.Source = store.img;
+            TradingHours.Text = store.tradingHours;
         }
     }
 }

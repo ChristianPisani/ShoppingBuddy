@@ -14,10 +14,10 @@ namespace ShoppingMap.Models {
             ItemCategory swimmers = new ItemCategory("Swimmers");
 
             //Harvey norman categories 
-			ItemCategory Technologies = new ItemCategory("Technology");
-			ItemCategory Sports = new ItemCategory("Sports");
-			ItemCategory HairNbodyCare = new ItemCategory("Hair and BodyCare");
-			ItemCategory Furnitures = new ItemCategory("Furnitures");
+            ItemCategory Technologies = new ItemCategory("Technology");
+            ItemCategory Sports = new ItemCategory("Sports");
+            ItemCategory HairNbodyCare = new ItemCategory("Hair and BodyCare");
+            ItemCategory Furnitures = new ItemCategory("Furnitures");
 
 
             // Big W 
@@ -52,12 +52,12 @@ namespace ShoppingMap.Models {
 
 
 
-			//Furnitures
-			Item Sofa = new Item("Black Sofa");
+            //Furnitures
+            Item Sofa = new Item("Black Sofa");
             Sofa.images[0] = "sofa1.png";
             Sofa.info = "Black comfortable sofa ";
             Sofa.price =150;
-			Furnitures.addItem(Sofa);
+            Furnitures.addItem(Sofa);
 
             Item Sofa2 = new Item("Brown Sofa");
             Sofa2.images[0] ="sofa2.png";
@@ -65,11 +65,11 @@ namespace ShoppingMap.Models {
             Sofa2.price = 150;
             Furnitures.addItem(Sofa2);
 
-			Item Desk = new Item("Study Desk");
-			Desk.images[0] = "desk1.png";
+            Item Desk = new Item("Study Desk");
+            Desk.images[0] = "desk1.png";
             Desk.info = "Black wooden study table ";
             Desk.price = 45;
-			Furnitures.addItem(Desk);
+            Furnitures.addItem(Desk);
 
             Item Desk2 = new Item("Study Desk");
             Desk2.images[0] = "desk2.png";
@@ -77,23 +77,23 @@ namespace ShoppingMap.Models {
             Desk2.price = 45;
             Furnitures.addItem(Desk2);
 
-			Item Lamp = new Item("Table Lamp");
+            Item Lamp = new Item("Table Lamp");
             Lamp.images[0] = "lamp2.png";
             Lamp.info = "Table study Lamp ";
             Lamp.price = 15;
             Furnitures.addItem(Lamp);
 
-			Item Chair = new Item("Black Office Chair");
+            Item Chair = new Item("Black Office Chair");
             Chair.images[0] = "chair2.png";
             Chair.info = "Black Office Chair ";
             Chair.price = 20;
             Furnitures.addItem(Chair);
 
-			Item Bed = new Item("Black Queens Size Bed");
-			Bed.images[0] = "bed1.png";
+            Item Bed = new Item("Black Queens Size Bed");
+            Bed.images[0] = "bed1.png";
             Bed.info = "Cozy Black queen size bed";
             Bed.price = 200;
-			Furnitures.addItem(Bed);
+            Furnitures.addItem(Bed);
 
 
             Item Bed2 = new Item("Brown  Queens Size Bed");
@@ -104,14 +104,14 @@ namespace ShoppingMap.Models {
 
 
 
-			 //technologies 
-			Item Apple_Macbook = new Item("Apple Mac book pro 2015 13");
+             //technologies 
+            Item Apple_Macbook = new Item("Apple Mac book pro 2015 13");
             Apple_Macbook.images[0] = "macpro.png";
             Bed.info = "Mac BookPro 2015 13, Ram 4, i5";
             Bed.price = 990;
             Technologies.addItem(Apple_Macbook);
 
-			Item Microsoft_Laptop = new Item("Microsoft Surface Laptop ");
+            Item Microsoft_Laptop = new Item("Microsoft Surface Laptop ");
             Microsoft_Laptop.images[0] = "micro.png";
             Microsoft_Laptop.info = " 13 Microsoft Surface Laptop, RAM 4,i5 ";
             Microsoft_Laptop.price = 600;
@@ -123,25 +123,25 @@ namespace ShoppingMap.Models {
             Iphone8.price = 1000;
             Technologies.addItem(Iphone8);
 
-			Item Samsung_Galaxy8 = new Item("Samsung Galaxy 8");
+            Item Samsung_Galaxy8 = new Item("Samsung Galaxy 8");
             Samsung_Galaxy8.images[0] = "galaxy8.png";
             Samsung_Galaxy8.info = "Samsung 64 Galaxy 8 ";
             Samsung_Galaxy8.price = 800;
             Technologies.addItem(Samsung_Galaxy8);
 
-			Item Samsung_Galaxy_Note = new Item("Samsung Galaxy Note 8");
+            Item Samsung_Galaxy_Note = new Item("Samsung Galaxy Note 8");
             Samsung_Galaxy_Note.images[0] = "galaxynote8.png";
             Samsung_Galaxy_Note.info = "Samsung Galaxy Note 8";
             Samsung_Galaxy_Note.price = 990;
             Technologies.addItem(Samsung_Galaxy_Note);
 
-			Item LG= new Item("LG Smart TV");
-			LG.images[0] = "lgtv.png";
+            Item LG= new Item("LG Smart TV");
+            LG.images[0] = "lgtv.png";
             LG.info = "52 LG Smart TV";
             LG.price = 350;
-			Technologies.addItem(LG);
+            Technologies.addItem(LG);
 
-			//hair and bodycare
+            //hair and bodycare
 
             Item Shavers = new Item("Men Shaver");
             Shavers.images[0] = "shaver.png";
@@ -176,26 +176,26 @@ namespace ShoppingMap.Models {
 
 
 
-			//sport equipments
-			Item SoccerBall = new Item("SoccerBall");
+            //sport equipments
+            Item SoccerBall = new Item("SoccerBall");
             SoccerBall.images[0] = "epl2.png";
             Bed.info = "Cozy Black queen size bed";
             Bed.price = 200;
             Sports.addItem(SoccerBall);
 
-			Item basketBall = new Item("Basketball");
+            Item basketBall = new Item("Basketball");
             basketBall.images[0] = "basketball2.png";
             Bed.info = "Cozy Black queen size bed";
             Bed.price = 200;
             Sports.addItem(basketBall);
 
-			Item cricketbat = new Item("CricketBat");
+            Item cricketbat = new Item("CricketBat");
             cricketbat.images[0] = "battis.png";
             Bed.info = "Cozy Black queen size bed";
             Bed.price = 200;
             Sports.addItem(cricketbat);
 
-			Item boxinggloves = new Item("Boxing Gloves");
+            Item boxinggloves = new Item("Boxing Gloves");
             boxinggloves.images[0] = "boxinggloves.png";
             Bed.info = "Cozy Black queen size bed";
             Bed.price = 200;
@@ -203,7 +203,7 @@ namespace ShoppingMap.Models {
 
        
 
-			
+            
             Store HarveyNorman = new Store("Harvey Norman");
             HarveyNorman.addCategory(Technologies);
             HarveyNorman.addCategory(Sports);
