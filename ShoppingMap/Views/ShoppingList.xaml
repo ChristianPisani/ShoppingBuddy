@@ -12,5 +12,6 @@
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
+      
 	</ContentPage.Content>
 </ContentPage>

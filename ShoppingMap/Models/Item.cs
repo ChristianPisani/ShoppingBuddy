@@ -11,6 +11,8 @@ namespace ShoppingMap {
         public string name { get; set; }
         public float price { get; set;  }
 
+        public string info;
+
         public string category { get; set; }
 
         public List<String> images = new List<string>();
@@ -18,6 +20,7 @@ namespace ShoppingMap {
         public Item() {
             this.name = "undefined";
             this.category = "undefined";
+            this.info = "";
             images.Add(Styles.missingImage);
             this.price = 0;
         }

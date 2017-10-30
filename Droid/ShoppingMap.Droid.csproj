@@ -9,7 +9,7 @@
     <OutputType>Library</OutputType>
     <RootNamespace>ShoppingMap.Droid</RootNamespace>
     <AssemblyName>ShoppingMap.Droid</AssemblyName>
-    <TargetFrameworkVersion>v7.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v8.0</TargetFrameworkVersion>
     <AndroidApplication>True</AndroidApplication>
     <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
     <AndroidResgenClass>Resource</AndroidResgenClass>
@@ -177,10 +177,7 @@
     <AndroidResource Include="Resources\drawable\boxinggloves.png" />
     <AndroidResource Include="Resources\drawable\chairr.png" />
     <AndroidResource Include="Resources\drawable\epl2.png" />
-    <AndroidResource Include="Resources\drawable\iphone8s.png" />
     <AndroidResource Include="Resources\drawable\lampp.png" />
-    <AndroidResource Include="Resources\drawable\lg2.png" />
-    <AndroidResource Include="Resources\drawable\macc.png" />
     <AndroidResource Include="Resources\drawable\micro.png" />
     <AndroidResource Include="Resources\drawable\sofaf.png" />
     <AndroidResource Include="Resources\drawable\tabledesk.png" />
@@ -189,6 +186,101 @@
     <AndroidResource Include="Resources\drawable\past.png" />
     <AndroidResource Include="Resources\drawable\shaver.png" />
     <AndroidResource Include="Resources\drawable\flosser.png" />
+    <AndroidResource Include="Resources\drawable\bj.png" />
+    <AndroidResource Include="Resources\drawable\bjean.png" />
+    <AndroidResource Include="Resources\drawable\btshirt.png" />
+    <AndroidResource Include="Resources\drawable\blues.png" />
+    <AndroidResource Include="Resources\drawable\bt.png" />
+    <AndroidResource Include="Resources\drawable\shorts.png" />
+    <AndroidResource Include="Resources\drawable\whites.png" />
+    <AndroidResource Include="Resources\drawable\wt.png" />
+    <AndroidResource Include="Resources\drawable\blackj.png" />
+    <AndroidResource Include="Resources\drawable\wbj.png" />
+    <AndroidResource Include="Resources\drawable\wbluedress.png" />
+    <AndroidResource Include="Resources\drawable\wbsk.png" />
+    <AndroidResource Include="Resources\drawable\wdress.png" />
+    <AndroidResource Include="Resources\drawable\whsh.png" />
+    <AndroidResource Include="Resources\drawable\wjj.png" />
+    <AndroidResource Include="Resources\drawable\wtop.png" />
+    <AndroidResource Include="Resources\drawable\wwtop.png" />
+    <AndroidResource Include="Resources\drawable\bh.png" />
+    <AndroidResource Include="Resources\drawable\bhills.png" />
+    <AndroidResource Include="Resources\drawable\blackdress.png" />
+    <AndroidResource Include="Resources\drawable\bluedress.png" />
+    <AndroidResource Include="Resources\drawable\bluerun.png" />
+    <AndroidResource Include="Resources\drawable\boot.png" />
+    <AndroidResource Include="Resources\drawable\dresss.png" />
+    <AndroidResource Include="Resources\drawable\dresssh.png" />
+    <AndroidResource Include="Resources\drawable\flats.png" />
+    <AndroidResource Include="Resources\drawable\hightop.png" />
+    <AndroidResource Include="Resources\drawable\mblack.png" />
+    <AndroidResource Include="Resources\drawable\mensho.png" />
+    <AndroidResource Include="Resources\drawable\menva.png" />
+    <AndroidResource Include="Resources\drawable\mnike.png" />
+    <AndroidResource Include="Resources\drawable\mredn.png" />
+    <AndroidResource Include="Resources\drawable\balance.png" />
+    <AndroidResource Include="Resources\drawable\oldvan.png" />
+    <AndroidResource Include="Resources\drawable\pinkh.png" />
+    <AndroidResource Include="Resources\drawable\pinkrun.png" />
+    <AndroidResource Include="Resources\drawable\wflat.png" />
+    <AndroidResource Include="Resources\drawable\bed1.png" />
+    <AndroidResource Include="Resources\drawable\bed2.png" />
+    <AndroidResource Include="Resources\drawable\chair2.png" />
+    <AndroidResource Include="Resources\drawable\desk1.png" />
+    <AndroidResource Include="Resources\drawable\desk2.png" />
+    <AndroidResource Include="Resources\drawable\i8s.png" />
+    <AndroidResource Include="Resources\drawable\lamp2.png" />
+    <AndroidResource Include="Resources\drawable\lgtv.png" />
+    <AndroidResource Include="Resources\drawable\macpro.png" />
+    <AndroidResource Include="Resources\drawable\sofa1.png" />
+    <AndroidResource Include="Resources\drawable\sofa2.png" />
+    <AndroidResource Include="Resources\drawable\bclo.png" />
+    <AndroidResource Include="Resources\drawable\bdre.png" />
+    <AndroidResource Include="Resources\drawable\bff.png" />
+    <AndroidResource Include="Resources\drawable\bfo.png" />
+    <AndroidResource Include="Resources\drawable\bjum.png" />
+    <AndroidResource Include="Resources\drawable\bn.png" />
+    <AndroidResource Include="Resources\drawable\bna.png" />
+    <AndroidResource Include="Resources\drawable\bw.png" />
+    <AndroidResource Include="Resources\drawable\wipe.png" />
+    <AndroidResource Include="Resources\drawable\mbb.png" />
+    <AndroidResource Include="Resources\drawable\mh.png" />
+    <AndroidResource Include="Resources\drawable\ms.png" />
+    <AndroidResource Include="Resources\drawable\mw2.png" />
+    <AndroidResource Include="Resources\drawable\sock.png" />
+    <AndroidResource Include="Resources\drawable\wb.png" />
+    <AndroidResource Include="Resources\drawable\wg.png" />
+    <AndroidResource Include="Resources\drawable\wh.pnh.png" />
+    <AndroidResource Include="Resources\drawable\ws.png" />
+    <AndroidResource Include="Resources\drawable\ww2.png" />
+    <AndroidResource Include="Resources\drawable\ab.png" />
+    <AndroidResource Include="Resources\drawable\bike.png" />
+    <AndroidResource Include="Resources\drawable\bike2.png" />
+    <AndroidResource Include="Resources\drawable\board.png" />
+    <AndroidResource Include="Resources\drawable\c.png" />
+    <AndroidResource Include="Resources\drawable\eg2.png" />
+    <AndroidResource Include="Resources\drawable\eg3.png" />
+    <AndroidResource Include="Resources\drawable\es.png" />
+    <AndroidResource Include="Resources\drawable\helment.png" />
+    <AndroidResource Include="Resources\drawable\helment2.png" />
+    <AndroidResource Include="Resources\drawable\hero.png" />
+    <AndroidResource Include="Resources\drawable\hulk.png" />
+    <AndroidResource Include="Resources\drawable\lt.png" />
+    <AndroidResource Include="Resources\drawable\puzzle.png" />
+    <AndroidResource Include="Resources\drawable\rc.png" />
+    <AndroidResource Include="Resources\drawable\s.png" />
+    <AndroidResource Include="Resources\drawable\s2.png" />
+    <AndroidResource Include="Resources\drawable\s3.png" />
+    <AndroidResource Include="Resources\drawable\sup.png" />
+    <AndroidResource Include="Resources\drawable\tc.png" />
+    <AndroidResource Include="Resources\drawable\thor.png" />
+    <AndroidResource Include="Resources\drawable\train.png" />
+    <AndroidResource Include="Resources\drawable\truck.png" />
+    <AndroidResource Include="Resources\drawable\ty.png" />
+    <AndroidResource Include="Resources\drawable\uno.png" />
+    <AndroidResource Include="Resources\drawable\wol.png" />
+    <AndroidResource Include="Resources\drawable\wonder.png" />
+    <AndroidResource Include="Resources\drawable\c2.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />

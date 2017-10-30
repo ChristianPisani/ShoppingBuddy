@@ -13,8 +13,17 @@ namespace ShoppingMap.Views {
             Items.ItemsSource = ShoppingListPlaceholder.items;
         }
 
-        void Handle_ItemTapped(object sender, Xamarin.Forms.ItemTappedEventArgs e) {
-            Navigation.PushAsync(new ProductPage((Item)e.Item));
+        protected override void OnAppearing() {
+            InitializeComponent();
+            Items.ItemsSource = ShoppingListPlaceholder.items;
         }
+
+        void Handle_ItemTapped(object sender, Xamarin.Forms.ItemTappedEventArgs e) {
+            ProductPage p = new ProductPage((Item)e.Item);
+            p.Initialize();
+            Navigation.PushAsync(p);
+        }
+
+
     }
 }

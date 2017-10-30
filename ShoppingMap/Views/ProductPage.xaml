@@ -4,11 +4,16 @@
         <StackLayout VerticalOptions="StartAndExpand">
             <Image Source="no_image.png"
                 x:Name="productImages"></Image>
-            <Label Text="Product Info"
-                   x:Name="InfoLabel"></Label>
-            <Label Text="{Binding InfoLable}"></Label>
+            <Label Text="Product Name"
+                   x:Name="nameLabel"></Label>
+            <Label x:Name="infoLabel"></Label>
+            <Label x:Name="Price"></Label>
+            <Label x:Name="Total"></Label>
 
-            <Button Text="Add to shopping list" Clicked="AddToShoppingList"></Button>
+            <Button Text="Add to shopping list" Clicked="AddToShoppingList"
+                x:Name= "ShoppinglistButton"
+            ></Button>
+
 
         </StackLayout>
     </ContentPage.Content>

@@ -1,13 +1,13 @@
 ﻿<Properties StartupConfiguration="{2670872E-2AC7-4A2C-9804-E03616C10FCE}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="ShoppingMap/Models/DefaultStores.cs">
     <Files>
-      <File FileName="ShoppingMap/Views/ProductPage.xaml" Line="16" Column="1" />
+      <File FileName="ShoppingMap/Views/ProductPage.xaml" Line="21" Column="1" />
       <File FileName="ShoppingMap/Views/StorePage.xaml" Line="25" Column="1" />
       <File FileName="ShoppingMap/Views/StorePage.xaml.cs" Line="39" Column="21" />
       <File FileName="ShoppingMap/App.xaml.cs" Line="15" Column="34" />
       <File FileName="ShoppingMap/Models/IFileHelper.cs" Line="9" Column="1" />
       <File FileName="ShoppingMap/Views/MainPage.xaml" Line="25" Column="1" />
-      <File FileName="ShoppingMap/Views/ProductPage.xaml.cs" Line="22" Column="13" />
+      <File FileName="ShoppingMap/Views/ProductPage.xaml.cs" Line="36" Column="18" />
       <File FileName="ShoppingMap/ViewModels/StoreItemSection.cs" Line="20" Column="53" />
       <File FileName="ShoppingMap/Styling/Styles.cs" Line="13" Column="60" />
       <File FileName="ShoppingMap/Models/SQLiteDatabase.cs" Line="24" Column="9" />
@@ -17,17 +17,23 @@
       <File FileName="Droid/MainActivity.cs" Line="22" Column="1" />
       <File FileName="ShoppingMap/Models/BaseModel.cs" Line="9" Column="22" />
       <File FileName="ShoppingMap/Models/ISQLiteDatabase.cs" Line="14" Column="2" />
-      <File FileName="ShoppingMap/Views/ShoppingList.xaml" Line="17" Column="1" />
-      <File FileName="ShoppingMap/Views/ShoppingList.xaml.cs" Line="13" Column="39" />
-      <File FileName="ShoppingMap/Models/ShoppingListPlaceholder.cs" Line="4" Column="31" />
-      <File FileName="ShoppingMap/Models/DefaultStores.cs" Line="216" Column="30" />
+      <File FileName="ShoppingMap/Views/ShoppingList.xaml" Line="18" Column="1" />
+      <File FileName="ShoppingMap/Views/ShoppingList.xaml.cs" Line="17" Column="35" />
+      <File FileName="ShoppingMap/Models/ShoppingListPlaceholder.cs" Line="9" Column="1" />
+      <File FileName="ShoppingMap/Models/DefaultStores.cs" Line="305" Column="29" />
+      <File FileName="ShoppingMap/Models/Item.cs" Line="21" Column="21" />
+      <File FileName="ShoppingMap/Views/MainPage.xaml.cs" Line="41" Column="84" />
+      <File FileName="ShoppingMap/obj/Debug/ShoppingMap.Views.ShoppingList.xaml.g.cs" Line="7" Column="24" />
+      <File FileName="ShoppingMap/Models/ItemCategory.cs" Line="1" Column="1" />
+      <File FileName="ShoppingMap/Models/Store.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.ShoppingMap.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.apps" />
+  <MonoDevelop.Ide.ItemProperties.ShoppingMap.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.bah" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.ShoppingMap.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.D84BC9AC-211D-46BD-8F33-ECB5D76AAE04" />
 </Properties>

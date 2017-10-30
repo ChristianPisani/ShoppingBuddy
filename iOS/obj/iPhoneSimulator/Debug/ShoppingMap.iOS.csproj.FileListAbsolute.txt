@@ -57,11 +57,11 @@
 /Users/a/Documents/GitHub/ShoppingBuddy/iOS/bin/iPhoneSimulator/Debug/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll
 /Users/a/Documents/GitHub/ShoppingBuddy/iOS/bin/iPhoneSimulator/Debug/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll
 /Users/a/Documents/GitHub/ShoppingBuddy/iOS/bin/iPhoneSimulator/Debug/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/a/Documents/GitHub/ShoppingBuddy/iOS/obj/iPhoneSimulator/Debug/ibtool/_BundleResourceWithLogicalName.items
-/Users/a/Documents/GitHub/ShoppingBuddy/iOS/obj/iPhoneSimulator/Debug/actool/_PartialAppManifest.items
-/Users/a/Documents/GitHub/ShoppingBuddy/iOS/obj/iPhoneSimulator/Debug/actool/_BundleResourceWithLogicalName.items
-/Users/a/Documents/GitHub/ShoppingBuddy/iOS/obj/iPhoneSimulator/Debug/optimized/
 /Users/a/Documents/GitHub/ShoppingBuddy/iOS/obj/iPhoneSimulator/Debug/ShoppingMap.iOS.csprojResolveAssemblyReference.cache
 /Users/a/Documents/GitHub/ShoppingBuddy/iOS/obj/iPhoneSimulator/Debug/ShoppingMap.iOS.csproj.CoreCompileInputs.cache
 /Users/a/Documents/GitHub/ShoppingBuddy/iOS/obj/iPhoneSimulator/Debug/ShoppingMap.iOS.exe
 /Users/a/Documents/GitHub/ShoppingBuddy/iOS/obj/iPhoneSimulator/Debug/ShoppingMap.iOS.pdb
+/Users/a/Documents/GitHub/ShoppingBuddy/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.0/ibtool/_BundleResourceWithLogicalName.items
+/Users/a/Documents/GitHub/ShoppingBuddy/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.0/actool/_PartialAppManifest.items
+/Users/a/Documents/GitHub/ShoppingBuddy/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.0/actool/_BundleResourceWithLogicalName.items
+/Users/a/Documents/GitHub/ShoppingBuddy/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.0/optimized/
