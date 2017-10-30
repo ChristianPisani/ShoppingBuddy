@@ -56,7 +56,7 @@ namespace ShoppingMap.Models {
 			Item Sofa = new Item("Black Sofa");
             Sofa.images[0] = "sofa1.png";
             Sofa.info = "Black comfortable sofa ";
-            Sofa.price =150;
+            Sofa.price = 150;
 			Furnitures.addItem(Sofa);
 
             Item Sofa2 = new Item("Brown Sofa");
@@ -490,7 +490,7 @@ namespace ShoppingMap.Models {
             Item WHat = new Item("Male Hat");
             WHat.images[0] = "mh.png";
             WHat.info = "Male Hat";
-            WHat.price = 5;
+            WHat.price = 5.;
             Accessories.addItem(WHat);
 
             Store Woolworths = new Store("Woolworths");
@@ -500,6 +500,170 @@ namespace ShoppingMap.Models {
             Woolworths.addCategory(Bakery);
             Woolworths.addCategory(Liquor);
             Woolworths.img = "woolies.png";
+
+
+            ///DRINKS
+
+            Item coke = new Item("Coke");
+            coke.images[0] = "drink1.png";
+            coke.info = "Classic Coke";
+            coke.price = 3.5f;
+            Drinks.addItem(coke);
+
+            Item drpepper = new Item(" Dr. Pepper");
+            drpepper.images[0] = "drink2.png";
+            drpepper.info = "250ml";
+            drpepper.price = 3.5f;
+            Drinks.addItem(drpepper);
+
+            Item pepsi = new Item("Pepsi");
+            pepsi.images[0] = "drink4.png";
+            pepsi.info = "250ml";
+            pepsi.price = 3.5f;
+            Drinks.addItem(pepsi);
+
+            Item Lemonade = new Item("Lemonade");
+            Lemonade.images[0] = "drin.png";
+            Lemonade.info = "600ml";
+            Lemonade.price = 4.5f;
+            Drinks.addItem(Lemonade);
+
+
+            Item Lemonade2 = new Item("Schweppes");
+            Lemonade2.images[0] = "drink5.png";
+            Lemonade2.info = "600ml";
+            Lemonade2.price = 4.5f;
+            Drinks.addItem(Lemonade2);
+            ///BAKERY
+            Item breadroll = new Item("Bread roll");
+            breadroll.images[0] = "bread5.png";
+            breadroll.info = "Single roll";
+            breadroll.price = 1.50f;
+            Bakery.addItem(breadroll);
+
+            Item croissant = new Item("Croissant");
+            croissant.images[0] = "drink2.png";
+            croissant.info = "single croissant";
+            croissant.price = 2.0f;
+            Bakery.addItem(croissant);
+
+            Item slicedbread = new Item("Sliced Bread");
+            slicedbread.images[0] = "drink4.png";
+            slicedbread.info = "single loaf";
+            slicedbread.price = 5.0f;
+            Bakery.addItem(slicedbread);
+
+            Item macaroons = new Item("Macaroons");
+            macaroons.images[0] = "bread8.png";
+            macaroons.info = "multi pack";
+            macaroons.price = 6.5f;
+            Bakery.addItem(macaroons);
+
+
+            Item turnover = new Item("Turnover");
+            turnover.images[0] = "bread7.png";
+            turnover.info = "two-pack";
+            turnover.price = 2.5f;
+            Bakery.addItem(turnover);
+
+            ///DRINKS
+
+
+            Item vodka = new Item("Vodka");
+            vodka.images[0] = "v.png";
+            vodka.info = "750ml, Avaliable in store top level, 20% off";
+            vodka.price = 45.0f;
+            Liquor.addItem(vodka);
+
+            Item bluelabel = new Item("Blue Label JW");
+            bluelabel.images[0] = "blue.png";
+            bluelabel.info = "750ml ";
+            bluelabel.price = 55.0f;
+            Liquor.addItem(bluelabel);
+
+            Item Bundaberg = new Item("Bundaberg Cola");
+            Bundaberg.images[0] = "cola.png";
+            Bundaberg.info = "Four pack  ";
+            Bundaberg.price = 20.0f;
+            Liquor.addItem(Bundaberg);
+
+            Item Jack = new Item("Jack Daniels");
+            Jack.images[0] = "bread8.png";
+            Jack.info = "750ml";
+            Jack.price = 55.0f;
+            Liquor.addItem(Jack);
+
+
+            Item Black = new Item("Johnnie Walker Black Whiskey ");
+            Black.images[0] = "la.png";
+            Black.info = "750ml 20% off";
+            Black.price = 60.0f;
+            Liquor.addItem(Black);
+
+            ///
+
+            ///FRUITS AND VEG
+
+
+            Item pear = new Item("Pear");
+            pear.images[0] = "pear.png";
+            pear.info = "Asian Pear";
+            pear.price = 2.50f;
+            Fruits.addItem(pear);
+
+            Item tomato = new Item("Tomato");
+            tomato.images[0] = "toma.png";
+            tomato.info = "Roma Tomatoes";
+            tomato.price = 2.50f;
+            Fruits.addItem(tomato);
+
+            Item carrot = new Item("Carrots");
+            carrot.images[0] = "carr.png";
+            carrot.info = "Six pack ";
+            carrot.price = 4.0f;
+            Fruits.addItem(carrot);
+
+            Item Watermelon = new Item("Watermelon");
+            Watermelon.images[0] = "water.png";
+            Watermelon.info = "3 dollars per kg, Discount - 25% off";
+            Watermelon.price = 3.0f;
+            Fruits.addItem(Watermelon);
+
+
+            // Meat
+
+            Item Chicken = new Item("Chicken Drumsticks 1.55kg");
+            Chicken.images[0] = "chi.png";
+            Chicken.info = " 3.50 dollars /1kg";
+            Chicken.price = 5.43f;
+            Meat.addItem(Chicken);
+
+            Item fish = new Item(" Salmon");
+            fish.images[0] = "salmon.png";
+            fish.info = "Tasmanian Atlantic Salmon per kg";
+            fish.price = 27.00f;
+            Meat.addItem(fish);
+
+
+            Item  crab = new Item("Crabs");
+            crab.images[0] = "crab.png";
+            crab.info = "35 per kg";
+            crab.price = 35.00f;
+            Meat.addItem(crab);
+
+            Item beef = new Item(" Steak");
+            beef.images[0] = "me.png";
+            beef.info = "10 per kg";
+            beef.price = 10.00f;
+            Meat.addItem(beef);
+
+            Item Prawns= new Item(" Prawns");
+            Prawns.images[0] = "f.png";
+            Prawns.info = "10 per kg";
+            Prawns.price = 10.00f;
+            Meat.addItem(Prawns);
+
+
 
             Store LensPro = new Store("LensPro");
             LensPro.addCategory(Glasses);

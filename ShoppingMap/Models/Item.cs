@@ -22,7 +22,7 @@ namespace ShoppingMap {
             this.category = "undefined";
             this.info = "";
             images.Add(Styles.missingImage);
-            this.price = 0;
+            this.price =0;
         }
 
         public Item(string name) {

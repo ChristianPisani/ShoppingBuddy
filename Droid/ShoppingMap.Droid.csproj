@@ -281,6 +281,30 @@
     <AndroidResource Include="Resources\drawable\wol.png" />
     <AndroidResource Include="Resources\drawable\wonder.png" />
     <AndroidResource Include="Resources\drawable\c2.png" />
+    <AndroidResource Include="Resources\drawable\drink5.png" />
+    <AndroidResource Include="Resources\drawable\drin.png" />
+    <AndroidResource Include="Resources\drawable\bread8.png" />
+    <AndroidResource Include="Resources\drawable\bread7.png" />
+    <AndroidResource Include="Resources\drawable\bread4.png" />
+    <AndroidResource Include="Resources\drawable\drink1.png" />
+    <AndroidResource Include="Resources\drawable\bread6.png" />
+    <AndroidResource Include="Resources\drawable\drink4.png" />
+    <AndroidResource Include="Resources\drawable\bread5.png" />
+    <AndroidResource Include="Resources\drawable\drink2.png" />
+    <AndroidResource Include="Resources\drawable\blue.png" />
+    <AndroidResource Include="Resources\drawable\v.png" />
+    <AndroidResource Include="Resources\drawable\f.png" />
+    <AndroidResource Include="Resources\drawable\cola.png" />
+    <AndroidResource Include="Resources\drawable\la.png" />
+    <AndroidResource Include="Resources\drawable\me.png" />
+    <AndroidResource Include="Resources\drawable\crab.png" />
+    <AndroidResource Include="Resources\drawable\pear.png" />
+    <AndroidResource Include="Resources\drawable\carr.png" />
+    <AndroidResource Include="Resources\drawable\toma.png" />
+    <AndroidResource Include="Resources\drawable\chi.png" />
+    <AndroidResource Include="Resources\drawable\water.png" />
+    <AndroidResource Include="Resources\drawable\salmon.png" />
+    <AndroidResource Include="Resources\drawable\jackdans.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />

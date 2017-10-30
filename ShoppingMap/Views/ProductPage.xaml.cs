@@ -16,8 +16,8 @@ namespace ShoppingMap.Views {
         public void Initialize() {
             nameLabel.Text = item.name;
             productImages.Source = item.images[0];
-            infoLabel.Text = item.info;
-            Price.Text = item.price.ToString();
+            infoLabel.Text = "Product:" + item.info;
+            Price.Text = "Price - $" + item.price.ToString();
 
             if (!ShoppingListPlaceholder.items.Contains(item))
             {
